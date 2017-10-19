@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 .box1 {
     background-color: red; /*establecemos el color de fondo*/
     display: block; /* luego establecemos el tipo de display que buscamos */
@@ -54,4 +56,48 @@
     /* asignamos el alto y el ancho */
     width: 100px;
     height: 100px;
+}
+
+#fullbox { /* se agrupa los elementos en una sola etiqueta */
+    /* se asigna el color de fondo */
+    background-color: blue;
+    /* se declara el display */
+    display: inline;
+    /* establecemos el tipo de posicion, que en este caso es absolute */
+    position: absolute;
+    /* declaramos la posicion */
+    top: 430px;
+    left: 10px;
+    /* establecemos el alto y ancho */
+    height: 400px;
+    width: 400px;        
+}
+
+.green {
+    /* se asigna el color de fondo */
+    background-color: green;
+    /* se declara el display */
+    display: inline-block;
+    /* establecemos el tipo de posicion */ 
+    position: relative;
+    /* declaramos la posicion */
+    top: 100px;
+    right: 3px;
+    /* establecemos el alto y ancho */
+    height: 200px;
+    width: 200px;
+}
+
+.black {
+    /* se asigna el color de fondo */
+    background-color: black;
+    /* se declara el display */
+    display: inline-block;
+    /* establecemos el tipo de posicion */
+    position: relative;
+    /* declaramos la posicion */   
+    bottom: 100px;
+    /* establecemos el alto y ancho */
+    height: 100px;
+    width: 100px;
 }

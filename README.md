@@ -8,4 +8,5 @@ Este proyecto fue realizado para reforzar los conocimientos en el uso de *Positi
 + CSS
 
 #### Imagen de referencia: 
-![referencia](assets/img/referencia.jpg)
+![referencia1](assets/img/referencia.jpg)
+![referencia2](assets/img/referencia2.jpg)
