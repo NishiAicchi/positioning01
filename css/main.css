@@ -1,0 +1,57 @@
+
+.box1 {
+    background-color: red; /*establecemos el color de fondo*/
+    display: block; /* luego establecemos el tipo de display que buscamos */
+    position: static; /* le establecemos la posicion 'static' */
+    /* le asignamos el ancho y alto con el mismo valor para generar un cuadrado */
+    height: 400px;
+    width: 400px;
+}
+
+.box2 {
+    background-color: yellow; /*establecemos el color de fondo*/
+    display: inline-block; /* establecemos el tipo de display */
+    position: relative; /* le establecemos un posicionamiento normal*/
+    /* le asignamos la posicion por medio de bottom y left */
+    bottom: 300px; 
+    left: 100px;    
+    /* asignamos el alto y el ancho */
+    width: 100px;
+    height: 100px;
+}
+
+.box3 {
+    background-color: purple; /*establecemos el color de fondo*/
+    display: inline-block; /* establecemos el tipo de display */
+    position: relative; /* le establecemos un posicionamiento normal*/
+    /* le asignamos la posicion por medio de bottom y left */
+    bottom: 300px;
+    left: 96px;
+    /* asignamos el alto y el ancho */
+    width: 100px;
+    height: 100px;
+}
+
+.box4 {
+    background-color: purple; /*establecemos el color de fondo*/
+    display: inline-block; /* establecemos el tipo de display */
+    position: relative; /* le establecemos un posicionamiento normal*/
+    /* le asignamos la posicion por medio de bottom y left */
+    bottom: 200px;
+    right: 108px;
+    /* asignamos el alto y el ancho */
+    width: 100px;
+    height: 100px;
+}
+
+.box5 {
+    background-color: purple; /*establecemos el color de fondo*/
+    display: inline-block; /* establecemos el tipo de display */
+    position: relative; /* le establecemos un posicionamiento normal*/
+    /* le asignamos la posicion por medio de bottom y left */
+    bottom: 200px;
+    right: 112px;
+    /* asignamos el alto y el ancho */
+    width: 100px;
+    height: 100px;
+}
